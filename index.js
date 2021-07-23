@@ -10,3 +10,7 @@ function checkPass(){
         return false;
     }
 }
+
+function checkPass(){
+ window.location.href = "/h/index.html";
+}
