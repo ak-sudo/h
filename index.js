@@ -11,6 +11,6 @@ function checkPass(){
     }
 }
 
-function checkPass(){
+function logout(){
  window.location.href = "/h/index.html";
 }
