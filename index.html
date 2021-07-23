@@ -9,19 +9,6 @@
 <input id="pass" type="password" style="text-align: center; color: red;" placeholder="Enter Password" required>
 <input id="cpass" type="button" value="Continue" onclick="checkPass()"></button>
 </center>
-<script>
-function checkPass(){
-    vPass = Number(document.getElementById("pass").value);
-    
-    if (vPass == sonal){
-        window.location.href = "/h/pics.html";
-        return false;
-    }
-    else{
-        alert("Inavlid Password!");
-        return false;
-    }
-}
-</script>
+<script src="/h/index.js"></script>
 </body>
 </html>
