@@ -1,7 +1,7 @@
 function checkPass(){
     vPass = Number(document.getElementById("pass").value);
-    
-    if (vPass == 6395037520){
+    passs = "sonal";
+    if (vPass = passs){
         window.location.href = "/h/pics.html";
         return false;
     }
