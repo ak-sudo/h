@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Index</title>
+</head>
+<body>
+<center><h3> Enter password to continue </h3>
+<input id="pass" type="number" style="text-align: center;" placeholder="Enter Password" required>
+<input id="cpass" type="button" value="Continue" onclick="checkPass()"></button>
+</center>
+<script>
+function checkPass(){
+    vPass = Number(document.getElementById("pass").value);
+    
+    if (vPass == 9458447993){
+        window.location.href = "pics.html";
+        return false;
+    }
+    else{
+        alert("Inavlid Password!");
+        return false;
+    }
+}
+</script>
+</body>
+</html>
